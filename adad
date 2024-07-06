@@ -1,1 +1,5 @@
-adadadadasdasd
+java -Xmx16G -Xms8G -jar server.jar --nogui
+----------------------------------------
+./playit-linux-amd64
+----------------------------------------
+bash online 

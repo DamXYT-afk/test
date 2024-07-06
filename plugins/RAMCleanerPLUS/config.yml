@@ -1,0 +1,35 @@
+# Maximaler RAM-Schwellenwert für die automatische Auslösung der Garbage Collection.
+# Geben Sie den Wert in Byte an. Hier sind einige Umrechnungen für Ihre Bequemlichkeit:
+# 1 GB = 1073741824 Byte
+# 2 GB = 2147483648 Byte
+# 4 GB = 4294967296 Byte
+# 8 GB = 8589934592 Byte
+# 12 GB = 12884901888 Byte
+max_ram: 12884901888 # 12 GB in Byte
+
+# Intervall für die periodische Überprüfung des RAM-Verbrauchs.
+# Geben Sie den Wert in Ticks an. Hier sind einige Umrechnungen für Ihre Bequemlichkeit:
+# 1 Minute = 1200 Ticks (20 Ticks * 60 Sekunden)
+# 5 Minuten = 6000 Ticks (20 Ticks * 60 Sekunden * 5)
+# 10 Minuten = 12000 Ticks (20 Ticks * 60 Sekunden * 10)
+# 30 Minuten = 36000 Ticks (20 Ticks * 60 Sekunden * 30)
+check_interval: 6000 # 5 Minuten (20 Ticks * 60 Sekunden * 5 Minuten)
+
+# Option zum Aktivieren/Deaktivieren von Debug-Nachrichten.
+# Debug-Nachrichten helfen Ihnen, Probleme zu erkennen und zu beheben,
+# indem sie zusätzliche Informationen über die Ausführung des Plugins bereitstellen.
+# Für Fehlermeldungen an den Developer oder an eine Community bitte /RAMBOOSTDEBUG eingeben
+# und generierte developer-debug.yml zur Fehlerbehebung hochladen.
+debug: false
+
+# Option zum Aktivieren/Deaktivieren der Benachrichtigung, wenn die automatische Garbage Collection ausgelöst wird.
+# Wenn dies auf "true" gesetzt ist, erhalten alle Spieler eine Benachrichtigung, wenn die Garbage Collection automatisch ausgeführt wird.
+auto_notify: false
+
+# Nachrichten, die an die Spieler gesendet werden, wenn bestimmte Ereignisse eintreten.
+messages:
+  # Nachricht, die gesendet wird, wenn die Garbage Collection manuell über den Befehl /RAMBOOST ausgelöst wird.
+  manual_ram_boost_triggered: 'RAMBoost: Garbage Collection angestoßen.'
+
+  # Nachricht, die gesendet wird, wenn die Garbage Collection automatisch ausgelöst wird (nur, wenn auto_notify auf "true" gesetzt ist).
+  auto_ram_boost_triggered: 'RAMBoost: Garbage Collection wurde automatisch angestoßen.'

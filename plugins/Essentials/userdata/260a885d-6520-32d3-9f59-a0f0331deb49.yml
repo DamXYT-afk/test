@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.25.7.3
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718786435878
+  login: 1718786391925
+money: '0'
+last-account-name: Insa151515
+lastlocation:
+  world: 58fac3af-0ca5-4c33-8bbe-a8e0beab153f
+  world-name: world
+  x: 5.5
+  y: 63.0
+  z: -31.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 58fac3af-0ca5-4c33-8bbe-a8e0beab153f
+  world-name: world
+  x: 24.148513147415066
+  y: 63.0
+  z: -2.5625901508294753
+  yaw: -67.05038452148438
+  pitch: -5.84995174407959

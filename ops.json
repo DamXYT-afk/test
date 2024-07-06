@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "a87c6df3-0ffb-31e0-b0c7-e6a54a017cb3",
+    "name": "inocent",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "24dfd69b-8de7-3e4e-875c-da077c420866",
+    "name": "Bluezly",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6c0df257-6a33-3754-8eb0-f15d4086e9a0",
+    "name": "ELHAREF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f68681c5-d40d-44bf-8427-99f53bc6f8d4",
+    "name": "Bluezly",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

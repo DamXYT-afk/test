@@ -1,0 +1,91 @@
+# This can block your plugins from players seeing them! #
+# You can configure this plugin to your likings #
+# This requires a permission plugin so you can set the permission #
+# Developed by oliver1009921 on spigot #
+# https://www.spigotmc.org/members/oliver1009921.615186/ #
+
+command /pl:
+	permission: block.plugins
+	executable by: players
+	permission message: &fPlugins (3): &aNot&f, &aYour&f, &aBusiness
+	trigger:
+		message "&fPlugins (3): &aNot&f, &aYour&f, &aBusiness"
+		stop
+
+# ------------------------------------------------------------------------ INFO ------------------------------------------------------------------------------- #
+# Edit. The plugin is now 2 in 1 #
+# Sorry about making it into 2 files #
+# This update was requested by Itunarlis because he/she said: Way too basic, poorly coded and why the hell is it not coded in one file? I don't get it seriously. #
+# Build 2.1
+# -------------------------------------------------------------- Second Part of the plugin -------------------------------------------------------------------- #
+# CODE: #
+command /plugins:
+	permission: block.plugins
+	executable by: players
+	permission message: &fPlugins (3): &aNot&f, &aYour&f, &aBusiness
+	trigger:
+		message "&fPlugins (3): &aNot&f, &aYour&f, &aBusiness"
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# Coded in notepad++ #
+# Copyright oliver1009921 #
+# 2019 #
+# This version built on 02/01/2019 GMT+00.00 #
+# Time built on: 1:09 #
+# Any bugs make sure to message me on spigot #
+# This version has been tested and is in working order as of 02/01/2019 #
+# If this does not work on your server please contact me on spigot #
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------ INFO ------------------------------------------------------------------------------- #
+# Build 2.2 #
+# Made by oliver1009921 #
+# -------------------------------------------------------------- Third Part of the plugin --------------------------------------------------------------------- #
+# CODE: #
+command /?:
+	permission: block.plugins
+	executable by: players
+	permission message: &fThis command is blocked.
+	trigger:
+		message "&fThis command is blocked."  
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------- Fourth Part of the plugin -------------------------------------------------------------------- #
+# CODE: #
+command /bukkit:?:
+	permission: block.plugins
+	executable by: players
+	permission message: &fThis command is blocked.
+	trigger:
+		message "&fThis command is blocked."
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------- Fifth Part of the plugin --------------------------------------------------------------------- #
+# CODE: #
+command /bukkit:help:
+	permission: block.plugins
+	executable by: players
+	permission message: &fThis command is blocked.
+	trigger:
+		message "&fThis command is blocked."
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------- Sixth Part of the plugin --------------------------------------------------------------------- #
+# CODE: #
+command /icanhasbukkit:
+	permission: block.plugins
+	executable by: players
+	permission message: &fThis command is blocked.
+	trigger:
+		message "&fThis command is blocked."
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------- Seventh Part of the plugin ------------------------------------------------------------------- #
+# CODE: #
+command /ver:
+	permission: block.plugins
+	executable by: players
+	permission message: &fThis command is blocked.
+	trigger:
+		message "&fThis command is blocked."
+		stop
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------- #

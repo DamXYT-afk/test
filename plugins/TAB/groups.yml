@@ -1,0 +1,60 @@
+founder:
+  tabprefix: "&#ad1313&lғᴏᴜɴᴅᴇʀ &f"
+  tagprefix: "&#ad1313&lғᴏᴜɴᴅᴇʀ &f"
+owner:
+  tabprefix: "&#cc9916&lᴏᴡɴᴇʀ &f"
+  tagprefix: "&#cc9916&lᴏᴡɴᴇʀ &f"
+co-owner:
+  tabprefix: "&#08ffa0&lᴄᴏ-ᴏᴡɴᴇʀ &f"
+  tagprefix: "&#08ffa0&lᴄᴏ-ᴏᴡɴᴇʀ &f"
+admin:
+  tabprefix: "&#cc5eff&lᴀᴅᴍɪɴ &f"
+  tagprefix: "&#cc5eff&lᴀᴅᴍɪɴ &f"
+mod:
+  tabprefix: "&#f7932f&lᴍᴏᴅ &f"
+  tagprefix: "&#f7932f&lᴍᴏᴅ &f"
+helper:
+  tabprefix: "&#9999ff&lʜᴇʟᴘᴇʀ &f"
+  tagprefix: "&#9999ff&lʜᴇʟᴘᴇʀ &f"
+builder:
+  tabprefix: "&#ffbb00&lʙᴜɪʟᴅᴇʀ &f"
+  tagprefix: "&#ffbb00&lʙᴜɪʟᴅᴇʀ &f"
+youtube:
+  tabprefix: "&#ff0000&lʏᴏᴜ&#808080&l-&#ffffff&lᴛᴜʙᴇ &f"
+  tagprefix: "&#ff0000&lʏᴏᴜ&#808080&l-&#ffffff&lᴛᴜʙᴇ &f"
+mvp+:
+  tabprefix: "&#00ffff&lᴍᴠᴘ&#ff0000+ &f"
+  tagprefix: "&#00ffff&lᴍᴠᴘ&#ff0000+ &f"
+mvp:
+  tabprefix: "&#00ffff&lᴍᴠᴘ &f"
+  tagprefix: "&#00ffff&lᴍᴠᴘ &f"
+vip+:
+  tabprefix: "&#ffff00&lᴠɪᴘ&#00ff00+ &f"
+  tagprefix: "&#ffff00&lᴠɪᴘ&#00ff00+ &f"
+vip:
+  tabprefix: "&#ffff00&lᴠɪᴘ &f"
+  tagprefix: "&#ffff00&lᴠɪᴘ &f"
+default:
+  tabprefix: "&#adadad&lᴍᴇᴍʙᴇʀ &f"
+  tagprefix: "&#adadad&lᴍᴇᴍʙᴇʀ &f"
+
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%vault-suffix%"
+  tagsuffix: "%vault-suffix%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

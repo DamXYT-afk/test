@@ -1,0 +1,93 @@
+Permissions:
+  enable-permissions: true
+Misc:
+  enable-destroy-item: true
+  enable-enchant-hiding: true
+Enchants:
+  enabled-enchants:
+    DURABILITY: true
+    PROTECTION_ENVIRONMENTAL: true
+    LOOT_BONUS_BLOCKS: true
+    PROTECTION_FIRE: true
+    DIG_SPEED: true
+    PROTECTION_FALL: true
+    SILK_TOUCH: true
+    PROTECTION_EXPLOSIONS: true
+    PROTECTION_PROJECTILE: true
+    OXYGEN: true
+    WATER_WORKER: true
+    THORNS: true
+    ARROW_INFINITE: true
+    DAMAGE_UNDEAD: true
+    ARROW_FIRE: true
+    DAMAGE_ALL: true
+    ARROW_KNOCKBACK: true
+    KNOCKBACK: true
+    ARROW_DAMAGE: true
+    DAMAGE_ARTHROPODS: true
+    LOOT_BONUS_MOBS: true
+    FIRE_ASPECT: true
+    DEPTH_STRIDER: true
+    LUCK: true
+    LURE: true
+Level:
+  enable-max-level-transfer: true
+  max-level-transfer:
+    DURABILITY: 3
+    PROTECTION_ENVIRONMENTAL: 4
+    LOOT_BONUS_BLOCKS: 3
+    PROTECTION_FIRE: 4
+    DIG_SPEED: 5
+    PROTECTION_FALL: 4
+    SILK_TOUCH: 1
+    PROTECTION_EXPLOSIONS: 4
+    PROTECTION_PROJECTILE: 4
+    OXYGEN: 3
+    WATER_WORKER: 1
+    THORNS: 3
+    ARROW_INFINITE: 1
+    DAMAGE_UNDEAD: 5
+    ARROW_FIRE: 1
+    DAMAGE_ALL: 5
+    ARROW_KNOCKBACK: 2
+    KNOCKBACK: 2
+    ARROW_DAMAGE: 5
+    DAMAGE_ARTHROPODS: 5
+    LOOT_BONUS_MOBS: 3
+    FIRE_ASPECT: 2
+    DEPTH_STRIDER: 3
+    LUCK: 3
+    LURE: 3
+Durability:
+  enable-min-durability: false
+  min-durability-percent: 0
+  enable-durability-corruption: true
+Cost:
+  enable-cost: true
+  base-cost: 2
+  enchantment-cost-per-level:
+    DURABILITY: 3
+    PROTECTION_ENVIRONMENTAL: 4
+    LOOT_BONUS_BLOCKS: 5
+    PROTECTION_FIRE: 3
+    DIG_SPEED: 3
+    PROTECTION_FALL: 4
+    SILK_TOUCH: 5
+    PROTECTION_EXPLOSIONS: 3
+    PROTECTION_PROJECTILE: 3
+    OXYGEN: 4
+    WATER_WORKER: 6
+    THORNS: 6
+    ARROW_INFINITE: 8
+    DAMAGE_UNDEAD: 3
+    ARROW_FIRE: 5
+    DAMAGE_ALL: 3
+    ARROW_KNOCKBACK: 6
+    KNOCKBACK: 4
+    ARROW_DAMAGE: 3
+    DAMAGE_ARTHROPODS: 3
+    LOOT_BONUS_MOBS: 5
+    FIRE_ASPECT: 5
+    DEPTH_STRIDER: 5
+    LUCK: 4
+    LURE: 3

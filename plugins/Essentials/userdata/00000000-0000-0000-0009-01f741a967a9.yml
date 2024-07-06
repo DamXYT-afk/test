@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.25.7.3
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718978488323
+  login: 1718978471869
+money: '0'
+last-account-name: .MeKraton
+lastlocation:
+  world: 58fac3af-0ca5-4c33-8bbe-a8e0beab153f
+  world-name: world
+  x: 0.0
+  y: 63.0
+  z: -32.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 58fac3af-0ca5-4c33-8bbe-a8e0beab153f
+  world-name: world
+  x: 5229.3086
+  y: 63.0
+  z: 844.68634
+  yaw: -10.4556884765625
+  pitch: 14.683639526367188

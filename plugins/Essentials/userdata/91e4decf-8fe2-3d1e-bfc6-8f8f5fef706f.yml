@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.25.7.3
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718479140639
+  login: 1718479139836
+money: '0'
+last-account-name: Miner99820140184
+logoutlocation:
+  world: 58fac3af-0ca5-4c33-8bbe-a8e0beab153f
+  world-name: world
+  x: 9.5
+  y: 63.0
+  z: -26.5
+  yaw: 0.0
+  pitch: 0.0

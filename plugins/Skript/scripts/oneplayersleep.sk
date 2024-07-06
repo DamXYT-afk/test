@@ -1,0 +1,23 @@
+# One player sleep Skript
+# Developed by WatchBOT @ SpigotMC.org
+# You are permitted to change all MESSAGES including COLOR CODES.
+# You may NOT change anything under the "options:" tab.
+# You may NOT give out this skript as your own!
+# You may NOT directly or indirectly generate profit from this skript!
+# You MAY generate donation revenue with this skript installed, UNLESS it is used to generate said profit!
+
+options:
+	author: WatchBOT
+	version: 1.0
+	website: https://www.spigotmc.org/members/anty.36626/
+	
+On Bed Enter:
+	broadcast "&b%player% is now sleeping!"
+	wait 80 ticks
+	set time to 07:00
+	wait 4 ticks
+	broadcast "&bGood Morning! Rise and shine!"
+	wait 10 ticks
+	broadcast "&7&o[Server: Saving world...]"
+	wait 20 ticks
+	make console execute command "/save-all"

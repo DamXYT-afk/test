@@ -1,0 +1,27 @@
+debug: INFO
+generalSettings:
+  ==: pickMeUpGeneralSettings
+  language: en_US
+  updateCheck: true
+carrySettings:
+  ==: pickMeUpCarrySettings
+  throwForce: 2.0
+  allowStacking: false
+mobSettings:
+  ==: pickMeUpMobSettings
+  allowedMobs:
+  - PIG
+  - CHICKEN
+  - RABBIT
+  - WOLF
+  - BOAT
+  - SHEEP
+  - PARROT
+  requirePermission: false
+  blacklist: false
+worldSettings:
+  ==: pickMeUpWorldSettings
+  restrictWorlds: false
+  blacklist: false
+  worlds:
+  - world

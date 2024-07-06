@@ -1,0 +1,174 @@
+header-footer:
+  enabled: true
+  header:
+  - '&#08FB0F&lS&#19FA15&lI&#2AF81A&lM&#3AF720&lO&#4BF525&lC&#5CF42B&lR&#6DF230&lA&#7DF136&lF&#8EEF3B&lT &#808080| &fSurvival &#808080| &#00ff001.10 - 1.21'
+  - '&#adadadEnjoy playing on our network!'
+  - ''
+  - '&8| &f%localtime_timezone_s% 🕒 &8|'
+  - ''
+  - "&8| &f%statistic_player_kills%⚔ &8| &f%statistic_deaths%☠ &8| &f%statistic_mine_block%⛏ &8|"
+  - ''
+  - '&#00ff00☻ &fPlayers Online: &#00ff00☻'
+  footer:
+  - ''
+  - ''
+  - '&#00ff00&l»&#99ff99&l»&f&l» &#adadad&lᴏᴘɪᴀᴄʀᴀғᴛ.ɢʟɪᴛᴄʜ.ᴍᴇ &f&l«&#99ff99&l«&#00ff00&l«'
+  - '&#00ff00&l»&#99ff99&l»&f&l» &#adadad&lᴏᴘɪᴀᴄʀᴀғᴛ.ɢʟɪᴛᴄʜ.ᴍᴇ/ᴀғᴋ &f&l«&#99ff99&l«&#00ff00&l«'
+  - '&#00ff00&l»&#99ff99&l»&f&l» &#adadad&lᴏᴘɪᴀᴄʀᴀғᴛ.ɢʟɪᴛᴄʜ.ᴍᴇ/ᴅɪsᴄᴏʀᴅ &f&l«&#99ff99&l«&#00ff00&l«'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  disable-condition: '%world%=disabledworld'
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  unlimited-nametag-mode:
+    enabled: false
+    disable-on-boats: true
+    space-between-lines: 0.22
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-condition: '%world%=disabledworld'
+  disable-condition: '%world%=disabledworld'
+  can-see-friendly-invisibles: false
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  disable-condition: '%world%=disabledworld'
+  fancy-display-default: NPC
+  fancy-display-players: '&c%health%'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    default:
+      title: <#00FFFF>&Lʏᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ</#0000FF>
+      lines:
+      - '&#696969%server_time_dd/MMM/YYYY% &l|&#696969 %server_time_hh:mm:ss%'
+      - '&r'
+      - '&#00ffff%player_name%:'
+      - '&f┃ &#ffff00★ &fRank: &#ffff00%vault_prefix%'
+      - '&7┃ &#00bbff⌚ &fPlaytime: &#00bbff%statistic_time_played%'
+      - '&f┃ &#00ff00🧪 &fExp: &#00ff00%player_current_exp%'
+      - '&7┗'
+      - '&#ffff00Purse:'
+      - '&f┃ &#ffff00⛃ &7Balance: &#ffff00%vault_eco_balance_formatted%'
+      - '&7┃ &#800080⛃ &7Points: &#800080%playerpoints_points_formatted%'
+      - '&f┗'
+      - '&#ffbb00Server:'
+      - '&f┃ &#00ff00☀ &fTPS &#00ff00%tps%'
+      - '&7┃ &#.☺ &fOnline: &#00ff00%server_online%'
+      - '&f┗'
+ping-spoof:
+  enabled: false
+  value: 0
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| &fVanished'
+    'no': ''
+  '%afk%':
+    true: ' &7&o* afk *'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+global-playerlist:
+  enabled: false
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'
+layout:
+  enabled: false

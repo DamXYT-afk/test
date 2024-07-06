@@ -1,0 +1,91 @@
+[07:38:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:38:58] [ServerMain/INFO]: Loaded 1175 recipes
+[07:38:59] [ServerMain/INFO]: Loaded 1276 advancements
+[07:38:59] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[07:38:59] [Server thread/INFO]: Loading properties
+[07:38:59] [Server thread/INFO]: This server is running Paper version 1.20.6-140-ver/1.20.6@9e7f6c3 (2024-06-14T11:52:59Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[07:39:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:39:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:39:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:39:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[07:39:01] [Server thread/INFO]: Default game type: SURVIVAL
+[07:39:01] [Server thread/INFO]: Generating keypair
+[07:39:01] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:12425
+[07:39:01] [Server thread/INFO]: Using epoll channel type
+[07:39:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:39:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:39:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[07:39:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[07:39:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:39:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:39:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:39:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:39:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[07:39:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:39:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:39:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:39:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:39:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:39:04] [Server thread/INFO]: Preparing level "world"
+[07:39:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:39:06] [Server thread/INFO]: Time elapsed: 1421 ms
+[07:39:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:39:06] [Server thread/INFO]: Time elapsed: 208 ms
+[07:39:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:39:07] [Server thread/INFO]: Time elapsed: 174 ms
+[07:39:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[07:39:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[07:39:07] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[07:39:07] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[07:39:07] [Server thread/INFO]: Starting GS4 status listener
+[07:39:07] [Server thread/INFO]: Thread Query Listener started
+[07:39:07] [Query Listener #1/INFO]: Query running on 0.0.0.0:12425
+[07:39:07] [Server thread/INFO]: Running delayed init tasks
+[07:39:07] [Server thread/INFO]: Done (8.111s)! For help, type "help"
+[07:39:07] [Server thread/INFO]: Timings Reset
+[07:39:07] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[07:39:07] [User Authenticator #0/INFO]: UUID of player ELHAREF is 6c0df257-6a33-3754-8eb0-f15d4086e9a0
+[07:39:08] [Server thread/INFO]: ELHAREF joined the game
+[07:39:08] [Server thread/INFO]: ELHAREF[/127.0.0.1:46370] logged in with entity id 113 at ([world]5261.565685259049, 60.92747620982714, 845.9770479264447)
+[07:39:17] [Server thread/INFO]: ELHAREF issued server command: /gamemode creative
+[07:39:17] [Server thread/INFO]: [ELHAREF: Set own game mode to Creative Mode]
+[07:49:01] [Server thread/INFO]: ELHAREF issued server command: /time set day
+[07:49:01] [Server thread/INFO]: [ELHAREF: Set the time to 1000]
+[07:49:25] [Server thread/INFO]: ELHAREF issued server command: /gamemode survival
+[07:49:25] [Server thread/INFO]: [ELHAREF: Set own game mode to Survival Mode]
+[07:49:42] [Server thread/INFO]: ELHAREF issued server command: /gamemode creative
+[07:49:42] [Server thread/INFO]: [ELHAREF: Set own game mode to Creative Mode]
+[07:49:51] [Server thread/INFO]: ELHAREF issued server command: /gamemode survival
+[07:49:51] [Server thread/INFO]: [ELHAREF: Set own game mode to Survival Mode]
+[07:50:48] [Server thread/INFO]: Stopping server
+[07:50:48] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[07:50:48] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
+[07:50:48] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[07:50:48] [Server thread/INFO]: Saving players
+[07:50:48] [Server thread/INFO]: ELHAREF lost connection: Server closed
+[07:50:48] [Server thread/INFO]: ELHAREF left the game
+[07:50:49] [Server thread/INFO]: Saving worlds
+[07:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 110 block chunks, 231 entity chunks, 0 poi chunks in world 'world' in 0.28s
+[07:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[07:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[07:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:50:49] [Server thread/INFO]: Flushing Chunk IO
+[07:50:49] [Server thread/INFO]: Closing Thread Pool
+[07:50:49] [Server thread/INFO]: Closing Server
