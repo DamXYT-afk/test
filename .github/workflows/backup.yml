@@ -1,0 +1,28 @@
+name: Create Backup
+
+on:
+  push:
+    branches:
+      - main  # أو أي فرع ترغب في متابعة التغييرات عليه
+  schedule:
+    - cron: '0 0 * * *'  # هذا الجدول يعني أن النسخة الاحتياطية ستُنشأ كل يوم في منتصف الليل
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create backup archive
+      run: |
+        mkdir -p backup
+        tar -czvf backup/backup_$(date +%Y%m%d_%H%M%S).tar.gz .
+
+    - name: Upload to GitHub Releases
+      uses: softprops/action-gh-release@v1
+      with:
+        files: backup/*.tar.gz
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
